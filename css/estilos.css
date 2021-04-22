@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*
+ESTILOS DE PRUEBA
+*/
+  /*
+.container, .container-fluid
+{
+    border: solid red 2px;
+
+}
+.row
+{
+    border: 1px solid blue;
+}
+
+.row>*
+{
+    border: 1px solid green;
+}
+*/
+/*
+h1
+{
+    font-size: 2rem;
+}
+.bg-primary
+{
+    background: magenta!important;
+}
+.bg-secondary
+{
+    background: mediumblue!important;
+}
+
+.servicios>*
+{
+    border: 1px solid red;
+}
+.servicios
+{
+    border: 1px solid springgreen;
+    height: 150px;
+
+}/*
+/*
+Estilos del diseño
+*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #44484a; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c38;
+          box-shadow: 0 0 10px #0c0c0c38; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+/*
+Sobreescribiendo estilos bootstrap
+*/
+.bg-primary {
+  background-color: #ff401c !important; }
+
+.text-primary {
+  color: #ff401c !important; }
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #b51d00 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important; }
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #821500 !important; }
+
+.btn-primary:focus {
+  background-color: #e82500 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5); }
+
+/*# sourceMappingURL=estilos.css.map */

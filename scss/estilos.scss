@@ -1,0 +1,106 @@
+//---------------------
+//PATRON DE COLORES
+//----------------
+$texto:#44484a;
+$principal:#ff401c;
+$secundario:orange;
+
+/*
+ESTILOS DE PRUEBA
+*//*
+.container, .container-fluid
+{
+    border: solid red 2px;
+
+}
+.row
+{
+    border: 1px solid blue;
+}
+
+.row>*
+{
+    border: 1px solid green;
+}
+*/
+
+/*
+h1
+{
+    font-size: 2rem;
+}
+.bg-primary
+{
+    background: magenta!important;
+}
+.bg-secondary
+{
+    background: mediumblue!important;
+}
+
+.servicios>*
+{
+    border: 1px solid red;
+}
+.servicios
+{
+    border: 1px solid springgreen;
+    height: 150px;
+
+}/*
+/*
+Estilos del diseño
+*/
+html
+{
+    font-size: 13px;//16px tiene html por defecto
+}
+body
+{
+    color: $texto;
+}
+.card:hover
+{
+    box-shadow: 0 0 10px #0c0c0c38;
+}
+@media(min-width: 768px){
+    html{
+        font-size: 16px;
+    }
+}
+
+/*
+Sobreescribiendo estilos bootstrap
+*/
+.bg-primary
+{
+    background-color: $principal !important;
+}
+.text-primary
+{
+    color: $principal !important;
+}
+.btn-primary
+{
+    background-color: $principal !important;
+    border-color: darken($principal,20%)!important;
+}
+.btn-primary:hover,
+.btn-primary:focus
+{
+    background-color: darken($principal,10%)!important;
+    
+    
+}
+.btn-primary:active
+{
+    background-color: darken($principal,20%)!important;
+    border-color: darken($principal,30%)!important;
+    
+}
+.btn-primary:focus
+{
+    background-color: darken($principal,10%)!important;
+    box-shadow: 0 0 0 0.2rem rgba($principal,.5);   
+    
+}
